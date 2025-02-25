@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Camryn's Photoshop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 25px;}
+  .bg-1 { 
+    background-color: hsla(296, 63%, 23%, 0.363); /* 白色最经典了白色吧,感觉深灰蓝也好看,最后选了紫色 */
+    font-family: fantasy;
+  }
+  .myfont{
+    background-color: hsla(296, 63%, 23%, 0.363); 
+    color: #fefafa;
+    font-family: fantasy;
+    font-size: 50px;
+  }
+
+  .bg-1附加{
+    color: rgb(34, 26, 5);/**加一点银色试试，后面还是黑色**/
+    font-size: 25px;
+  }
+  .bg-2 { 
+    background-color: hsla(295, 96%, 10%, 0.851); /* Dark Green */
+    color: #ffffff;
+  }
+  .p1{
+    width: 40%
+  }
+  .第二页字体{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .container-浮动{
+    display: flex;
+    justify-content: space-between;
+  }
+  .新字体{
+    font-weight: bold;
+    line-height: 3.5rem;
+  }
+  .新字体3{
+    font-weight: bold;
+    line-height: 1rem;
+  }
+  .新字体2{
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .bg-5{color: rgb(34, 26, 5);
+    font-size: small;
+  }
+  .bg-6{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .container-fluid {
+    padding-top: 5px;
+    padding-bottom: 30px;
+  }
+  .container-fluid1 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  .position{
+    transform: translate(180px,20px);
+  }
+  .position_hkbu{
+    transform: translate(170px,-10px);
+  }
+
+.footer{
+  height: 3px;/**视口高度的多少我也不知道，不过变矮了就行**/
+}
+
+@keyframes blink {
+     0% { opacity: 1; }
+     50% { opacity: 0; }
+     100% { opacity: 1; }
+   }
+
+   .blinking-text {
+     animation: blink 3s infinite;
+   }
+.newfont{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class=" navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="home.html">HOME</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class=" bg-1 text-center">
+  <h3 class=" myfont ">My Portfolio</h3>
+ 
+</div>
+
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+
+  <p class="bg-5">(Please hover the mouse over the image and double-click the Ctrl key to enlarge the image.)</p>
+    <div class="photo-gallery bg-6">
+        <!-- 图片1 -->
+        <div class="photo-item">
+            <img src="图片1.jpg" alt="照片1" class="photo">
+            <div class="caption">The beautiful scenery of Tai O Island in Hong Kong</div>
+        </div>
+        <!-- 图片2 -->
+        <div class="photo-item">
+            <img src="图片2.jpg" alt="照片2" class="photo">
+            <div class="caption">The sunset on the beach is more beautiful when zoomed in</div>
+        </div>
+        <!-- 图片3 -->
+        <div class="photo-item">
+            <img src="图片3.jpg" alt="照片3" class="photo">
+            <div class="caption">Sunset at West Kowloon Bridge in Hong Kong</div>
+        </div>
+         <!-- 图片4 -->
+         <div class="photo-item">
+          <img src="图片4.jpg" alt="照片1" class="photo">
+          <div class="caption">Artist's Nativity Scene Made of Miniature Miniatures</div>
+      </div>
+      <!-- 图片5 -->
+      <div class="photo-item">
+          <img src="图片5.jpg" alt="照片2" class="photo">
+          <div class="caption">Artist's Nativity Scene Made of Miniature Miniatures</div>
+      </div>
+      <!-- 图片6 -->
+      <div class="photo-item">
+          <img src="图片6.jpg" alt="照片3" class="photo">
+          <div class="caption">Gardening shapes produced by Ocean Park Hong Kong</div>
+      </div>
+       <!-- 图片7 -->
+       <div class="photo-item">
+        <img src="图片7.jpg" alt="照片1" class="photo">
+        <div class="caption">Victoria Harbor on a sunny day</div>
+    </div>
+    <!-- 图片8 -->
+    <div class="photo-item">
+        <img src="图片8.jpg" alt="照片2" class="photo">
+        <div class="caption">The misty land of M+ Art Museum</div>
+    </div>
+    <!-- 图片9 -->
+    <div class="photo-item">
+        <img src="图片9.jpg" alt="照片3" class="photo">
+        <div class="caption">The scenery next to the Hong Kong Museum of Medicine</div>
+    </div>
+     <!-- 图片10 -->
+     <div class="photo-item">
+      <img src="图片10.jpg" alt="照片1" class="photo">
+      <div class="caption">The seaside and reefs of Shek O Island, Hong Kong</div>
+  </div>
+  <!-- 图片11 -->
+  <div class="photo-item">
+      <img src="图片11.jpg" alt="照片2" class="photo">
+      <div class="caption">Sailing boats on the sea</div>
+  </div>
+  <!-- 图片12 -->
+  <div class="photo-item">
+      <img src="图片12.jpg" alt="照片3" class="photo">
+      <div class="caption">A child plays in the water</div>
+  </div>
+   <!-- 图片13 -->
+   <div class="photo-item">
+    <img src="图片13.jpg" alt="照片1" class="photo">
+    <div class="caption">Two children playing in the water</div>
+</div>
+<!-- 图片14 -->
+<div class="photo-item">
+    <img src="图片14.jpg" alt="照片2" class="photo">
+    <div class="caption">Fine Art Asia 2024 Artworks</div>
+</div>
+<!-- 图片15 -->
+<div class="photo-item">
+    <img src="图片15.jpg" alt="照片3" class="photo">
+    <div class="caption">The scenery beside the Hong Kong Heritage Discovery Center</div>
+</div>
+ <!-- 图片16 -->
+ <div class="photo-item">
+  <img src="图片16.jpg" alt="照片1" class="photo">
+  <div class="caption">Northern summer woods</div>
+</div>
+<!-- 图片17 -->
+<div class="photo-item">
+  <img src="图片17.jpg" alt="照片2" class="photo">
+  <div class="caption"> Macro shots of dragonflies</div>
+</div>
+<!-- 图片18 -->
+<div class="photo-item">
+  <img src="烟囱.jpg" alt="照片3" class="photo">
+  <div class="caption"> Chimneys in Northern Winter</div>
+</div>
+<!-- 图片19 -->
+<div class="photo-item">
+  <img src="雕塑.jpg" alt="照片2" class="photo">
+  <div class="caption">stately sculptures</div>
+</div>
+<!-- 图片20 -->
+<div class="photo-item">
+  <img src="雪人.jpg" alt="照片3" class="photo">
+  <div class="caption">cute snowmen</div>
+</div>
+        <!-- 更多图片 -->
+    </div>
+
+    <!-- 放大图片的模态框 -->
+    <div id="modal" class="modal-content">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption" class="modal-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Footer -->
+<footer class="container-fluid bg-4 text-center footer">
+  <p>&#169 Wang Yilin</p>
+    <p><a href="mailto:24456098@life.hkbu.edu.hk" class="email">Email me</a></p>
+</footer>
+
+</body>
+</html>
