@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Camryn's Photoshop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 10px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 25px;}
+  .bg-1 { 
+    background-color: hsla(295, 72%, 33%, 0.352); /* 白色最经典了白色吧,感觉深灰蓝也好看,最后选了紫色 */
+    font-family: fantasy;
+    color: #000000;
+  }
+  .p_intro{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  
+  .myfont{
+    background-color: hsla(296, 63%, 23%, 0.363); 
+    color: #fefafa;
+    font-family: fantasy;
+    font-size: 50px;
+  }
+
+  .bg-1附加{
+    color: rgb(34, 26, 5);/**加一点银色试试，后面还是黑色**/
+    font-size: 25px;
+  }
+  
+  .p1{
+    width: 40%
+  }
+ 
+  .container-浮动{
+    display: flex;
+    justify-content: space-between;
+  }
+  .新字体{
+    font-weight: bold;
+    line-height: 3.5rem;
+  }
+  .新字体3{
+    font-weight: bold;
+    line-height: 1rem;
+  }
+  .新字体2{
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 5px;
+    padding-bottom: 30px;
+  }
+  .container-fluid1 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  .position{
+    transform: translate(180px,20px);
+  }
+  .position_hkbu{
+    transform: translate(170px,-10px);
+  }
+
+.footer{
+  height: 3px;/**视口高度的多少我也不知道，不过变矮了就行**/
+}
+
+@keyframes blink {
+     0% { opacity: 1; }
+     50% { opacity: 0; }
+     100% { opacity: 1; }
+   }
+
+   .blinking-text {
+     animation: blink 3s infinite;
+   }
+
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class=" navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="home.html">HOME</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+ 
+ <div class="container-fluid bg-1 text-center">
+  <h3 class="margin myfont ">Personal Introduction</h3>
+  <p class="p_intro">I am a student with a passion for photography and am currently exploring the infinite possibilities of light, composition, and storytelling. Although I'm just starting out, my passion for capturing moments and the pursuit of beauty have kept me learning and growing.My photography journey began at the end of 2024 when I picked up my camera and tried to capture the beautiful moments in my life. That's when I learned how to express emotions and tell stories through the lens. I love to shoot portraits and street shots, and I want to convey warmth and strength through my work.</p>
+  <p class="p_intro">Currently, I am studying Communication Studies at Hong Kong Baptist University and am constantly improving my photography skills through online courses and practice. I believe that photography is not only the accumulation of technology, but also the observation and perception of life.</p>
+ <p>If you like my work, or want to exchange photography ideas together, please feel free to contact me! Email: 24456098@life.hkbu.edu.hk</p>
+</div>
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center footer">
+  <p>&#169 Wang Yilin</p>
+    <p><a href="mailto:24456098@life.hkbu.edu.hk" class="email">Email me</a></p>
+</footer>
+
+</body>
+</html>
